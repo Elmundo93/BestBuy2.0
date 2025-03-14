@@ -1,4 +1,4 @@
-# 🦁 Python Project 🌍
+# 📚 Masterschool Project BestBuy 🌍
 
 [![API Status](https://img.shields.io/badge/API-Online-brightgreen)](https://api-ninjas.com/) 
 [![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/) 
@@ -7,11 +7,8 @@
 > 📜 A sleek Python application 
 
 ## ✨ **Features**
-✅ Fetches animal data dynamically using [NinjaAPI](https://api-ninjas.com/)  
-✅ Generates beautiful HTML pages with animal details  
-✅ Secure API key handling with  support  
-✅ User-friendly interactive CLI  
-✅ Modular, scalable, and **developer-friendly** 💡  
+✅ Little Store program 
+
 
 ---
 
@@ -33,7 +30,7 @@ pip install -r requirements.txt
 ```
 ### 4️⃣ **Set Up API Key**
 ```sh
-API_KEY=your_api_ninja_key_here
+
 ```
 ### 5️⃣ **Run the Application**
 ```sh
@@ -42,16 +39,11 @@ python main.py
 
 # 🎯 Usage
 ```shell
-- Enter an animal name when prompted.
-- The script will fetch data from the API and generate an HTML file.
-- Open animals_repository.html in a browser to see the details!
+
 ```
 
 # 📌 To-Do List
-- 🖼️ Add better styling to HTML cards
-- 📊 Display more animal facts (lifespan, habitat, etc.)
-- 🌍 Expand API search to support multiple animals
-- 📝 Add automated tests for API calls
+
 
 ⸻
 
