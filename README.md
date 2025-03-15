@@ -4,7 +4,7 @@
 [![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/) 
 [![License](https://img.shields.io/badge/license-MIT-lightgrey)](LICENSE)
 
-> 📜 A sleek Python application utilising classes and pytes 
+> 📜 A sleek Python application utilising classes and pytest 
 
 ## ✨ **Features**
 ✅ Storage functionalities and Testing
