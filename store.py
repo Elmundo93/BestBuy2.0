@@ -1,11 +1,17 @@
 from products import Product
+from products import NonStockedProduct
+from products import LimitedProduct
+
 
 class Store:
     def __init__(self):
         self.products = [
             Product("MacBook Air M2", 1450, 100),
             Product("Bose QuietComfort Earbuds", 250, 500),
-            Product("Google Pixel 7", 500, 250)
+            Product("Google Pixel 7", 500, 250),
+            NonStockedProduct("Windows License", price=125),
+            LimitedProduct("Shipping", price=10, quantity=250, maximum=1)
+
         ]
 
     def list_products(self):
