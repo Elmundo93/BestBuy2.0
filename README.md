@@ -42,7 +42,7 @@ python main.py
 
 ```
 
-# 📌 To-Do List
+# 📌 To-Do Li
 
 
 ⸻
