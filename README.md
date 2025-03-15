@@ -15,8 +15,8 @@
 ## 🛠️ **Installation & Setup**
 ### 1️⃣ **Clone the Repository**
 ```sh
-git clone https://github.com/your-username/animal-info-generator.git
-cd animal-info-generator
+git clone <REPO_URL>
+cd <PROJECT_NAME>
 ```
 ### 2️⃣ **Create & Activate a Virtual Environment (Optional)**
 ```sh
