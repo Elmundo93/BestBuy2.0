@@ -1,7 +1,7 @@
 from products import Product
 from products import NonStockedProduct
 from products import LimitedProduct
-
+from promotions import PercentageDiscount,Buy2Get1Free,SecondItemHalfPrice
 
 class Store:
     def __init__(self):
@@ -13,6 +13,9 @@ class Store:
             LimitedProduct("Shipping", price=10, quantity=250, maximum=1)
 
         ]
+        self.products[0].set_promotion(PercentageDiscount(20))
+        self.products[2].set_promotion(Buy2Get1Free())
+        self.products[3].set_promotion(SecondItemHalfPrice())
 
     def list_products(self):
         print("------")

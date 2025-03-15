@@ -1,7 +1,5 @@
 from store import Store
 
-
-
 class Menu:
     def __init__(self):
         self.store = Store()
@@ -32,11 +30,11 @@ class Menu:
                     break
                 amount = int(amount)
 
-                if product.reduce_quantity(amount):
-                    order_total += product.price * amount
-                    print("Product added to list!")
-            except ValueError:
-                print("Invalid input. Please enter a number.")
+                # Call the new buy method that applies any promotion.
+                order_total += product.buy(amount)
+                print("Product added to list!")
+            except ValueError as e:
+                print(e)
                 continue
 
         print("********")
@@ -57,7 +55,6 @@ class Menu:
                 break
             else:
                 print("Invalid choice. Please enter a number between 1 and 4.")
-
 
 if __name__ == "__main__":
     menu = Menu()

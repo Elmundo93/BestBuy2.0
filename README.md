@@ -4,10 +4,10 @@
 [![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/) 
 [![License](https://img.shields.io/badge/license-MIT-lightgrey)](LICENSE)
 
-> 📜 A sleek Python application 
+> 📜 A sleek Python application utilising classes and pytes 
 
 ## ✨ **Features**
-✅ Little Store program 
+✅ Storage functionalities and Testing
 
 
 ---
